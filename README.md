@@ -1,2 +1,2 @@
 # .github
-nightglean studio — organization profile
+Nightglean Studio — organization profile
