@@ -1,6 +1,6 @@
 <div align="center">
 
-# NightGlean
+# Nightglean
 
 **独立开发 · 原生实现 · 先把"能不能不这样做"问一遍**
 
