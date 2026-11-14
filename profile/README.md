@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/nightglean-lockup.png" width="720" alt="长夜拾星 · Nightglean Studio" />
+<img src="../assets/nightglean-lockup.png" width="720" alt="长夜拾星 · Nightglean Studio" />
 
 # 长夜拾星工作室 · Nightglean Studio
 
@@ -32,7 +32,7 @@
 
 <div align="center">
 
-<img src="assets/nightglean-poster.png" width="360" alt="长夜拾星 · 竹简刻字海报" />
+<img src="../assets/nightglean-poster.png" width="360" alt="长夜拾星 · 竹简刻字海报" />
 
 <sub>竹简四片，字刻在片心、对齐在缝间；横版 lockup 用于文档抬头，方形 mark 用于头像与图标位。</sub>
 
