@@ -12,6 +12,7 @@ No framework chasing, no dependency stacking — every build step stays somethin
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3DDC84?logo=android&logoColor=white)](https://github.com/nightglean)
 [![No Gradle](https://img.shields.io/badge/build-no%20Gradle-1f6feb)](https://github.com/nightglean)
 [![License](https://img.shields.io/badge/license-MIT-2ea44f)](https://github.com/nightglean)
+[![Website](https://img.shields.io/badge/site-nightglean.github.io-c2a878)](https://nightglean.github.io/)
 
 **English** · [简体中文](README.zh-CN.md)
 
@@ -70,6 +71,7 @@ Dark backgrounds are the default: this studio builds its things at night. The id
 
 ### Links
 
+- Studio site: [nightglean.github.io](https://nightglean.github.io/)
 - Author: [yangyang2857-rgb](https://github.com/yangyang2857-rgb)
 - Personal site: [yangyang2857-rgb.github.io](https://yangyang2857-rgb.github.io)
 - Questions and ideas: open an issue in the relevant repository
