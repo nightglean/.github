@@ -24,12 +24,12 @@ No framework chasing, no dependency stacking — every build step stays somethin
 
 | Project | What it is | Technical stance | Status |
 | --- | --- | --- | --- |
-| **OneStar**<br>[yangyang2857-rgb/onestar](https://github.com/yangyang2857-rgb/onestar) | A "daily star" journal: one mood entry a day, accumulating into a hand-drawn star map, with a home-screen widget, a mood curve and a year-in-review poster | Plain Java + hand-drawn Canvas, no Gradle / no AndroidX / no third-party SDK; `aapt2 + javac + d8 + apksigner` wired by hand, JNI layer built with `zig cc` | 0.12.x in progress, targetSdk 37 |
-| **AppFunction Guard**<br>[yangyang2857-rgb/appfunction-guard](https://github.com/yangyang2857-rgb/appfunction-guard) | Android 16's `AppFunctions` let AI agents call functions inside an app; this library adds the per-function authorization, rate limiting, argument validation and audit trail the platform leaves out | Kotlin 2.2, `minSdk 26`, MIT; one interception point between platform and business logic | alpha |
-| **moltdisk**<br>[yangyang2857-rgb/moltdisk](https://github.com/yangyang2857-rgb/moltdisk) | A disk check-up tool: finds build artifacts that can be rebuilt from source (`node_modules`, `target`, `dist`, `venv`, `Pods`), measures them, ranks them, and shows the evidence for "why this is deletable". It deletes nothing itself | Rust 2021, MSRV 1.80, MIT; no deletion code path at all, `-y` is an error | v0.1.0 |
-| **Marvis · Persona Spec**<br>[yangyang2857-rgb/marvis-persona-spec](https://github.com/yangyang2857-rgb/marvis-persona-spec) | A persona spec that a program can check: 30 dialogue slots, 20 banned phrases, a runnable lint script, 10 benchmark cases, plus the Fault Bloom visual system | Python lint + Markdown spec; two-stage adoption in CI, from grey-scale report to a hard gate | v3 |
+| **OneStar**<br>[wang-sunyang/onestar](https://github.com/wang-sunyang/onestar) | A "daily star" journal: one mood entry a day, accumulating into a hand-drawn star map, with a home-screen widget, a mood curve and a year-in-review poster | Plain Java + hand-drawn Canvas, no Gradle / no AndroidX / no third-party SDK; `aapt2 + javac + d8 + apksigner` wired by hand, JNI layer built with `zig cc` | 0.12.x in progress, targetSdk 37 |
+| **AppFunction Guard**<br>[wang-sunyang/appfunction-guard](https://github.com/wang-sunyang/appfunction-guard) | Android 16's `AppFunctions` let AI agents call functions inside an app; this library adds the per-function authorization, rate limiting, argument validation and audit trail the platform leaves out | Kotlin 2.2, `minSdk 26`, MIT; one interception point between platform and business logic | alpha |
+| **moltdisk**<br>[wang-sunyang/moltdisk](https://github.com/wang-sunyang/moltdisk) | A disk check-up tool: finds build artifacts that can be rebuilt from source (`node_modules`, `target`, `dist`, `venv`, `Pods`), measures them, ranks them, and shows the evidence for "why this is deletable". It deletes nothing itself | Rust 2021, MSRV 1.80, MIT; no deletion code path at all, `-y` is an error | v0.1.0 |
+| **Marvis · Persona Spec**<br>[wang-sunyang/marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec) | A persona spec that a program can check: 30 dialogue slots, 20 banned phrases, a runnable lint script, 10 benchmark cases, plus the Fault Bloom visual system | Python lint + Markdown spec; two-stage adoption in CI, from grey-scale report to a hard gate | v3 |
 
-> All four repositories are still maintained under the personal account ([yangyang2857-rgb](https://github.com/yangyang2857-rgb)) and will move here once release and collaboration workflows settle. The `.github` repository of this organization only carries this profile and the brand assets.
+> All four repositories are still maintained under the personal account ([wang-sunyang](https://github.com/wang-sunyang)) and will move here once release and collaboration workflows settle. The `.github` repository of this organization only carries this profile and the brand assets.
 
 ### Visuals
 
@@ -63,17 +63,17 @@ Dark backgrounds are the default: this studio builds its things at night. The id
 
 | Repository | Workflow | Status |
 | --- | --- | --- |
-| onestar | `android.yml` | [![build](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/onestar/android.yml?branch=main&label=build)](https://github.com/yangyang2857-rgb/onestar/actions/workflows/android.yml) |
-| onestar | `regression.yml` | [![regression](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/onestar/regression.yml?branch=main&label=regression)](https://github.com/yangyang2857-rgb/onestar/actions/workflows/regression.yml) |
-| appfunction-guard | `build.yml` | [![build](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/appfunction-guard/build.yml?branch=main&label=build)](https://github.com/yangyang2857-rgb/appfunction-guard/actions/workflows/build.yml) |
-| moltdisk | `ci.yml` | [![ci](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/moltdisk/ci.yml?branch=main&label=ci)](https://github.com/yangyang2857-rgb/moltdisk/actions/workflows/ci.yml) |
-| marvis-persona-spec | `persona-lint.yml` | [![lint](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/marvis-persona-spec/persona-lint.yml?branch=main&label=lint)](https://github.com/yangyang2857-rgb/marvis-persona-spec/actions/workflows/persona-lint.yml) |
+| onestar | `android.yml` | [![build](https://img.shields.io/github/actions/workflow/status/wang-sunyang/onestar/android.yml?branch=main&label=build)](https://github.com/wang-sunyang/onestar/actions/workflows/android.yml) |
+| onestar | `regression.yml` | [![regression](https://img.shields.io/github/actions/workflow/status/wang-sunyang/onestar/regression.yml?branch=main&label=regression)](https://github.com/wang-sunyang/onestar/actions/workflows/regression.yml) |
+| appfunction-guard | `build.yml` | [![build](https://img.shields.io/github/actions/workflow/status/wang-sunyang/appfunction-guard/build.yml?branch=main&label=build)](https://github.com/wang-sunyang/appfunction-guard/actions/workflows/build.yml) |
+| moltdisk | `ci.yml` | [![ci](https://img.shields.io/github/actions/workflow/status/wang-sunyang/moltdisk/ci.yml?branch=main&label=ci)](https://github.com/wang-sunyang/moltdisk/actions/workflows/ci.yml) |
+| marvis-persona-spec | `persona-lint.yml` | [![lint](https://img.shields.io/github/actions/workflow/status/wang-sunyang/marvis-persona-spec/persona-lint.yml?branch=main&label=lint)](https://github.com/wang-sunyang/marvis-persona-spec/actions/workflows/persona-lint.yml) |
 
 ### Links
 
 - Studio site: [nightglean.github.io](https://nightglean.github.io/)
-- Author: [yangyang2857-rgb](https://github.com/yangyang2857-rgb)
-- Personal site: [yangyang2857-rgb.github.io](https://yangyang2857-rgb.github.io)
+- Author: [wang-sunyang](https://github.com/wang-sunyang)
+- Personal site: [wang-sunyang.github.io](https://wang-sunyang.github.io)
 - Questions and ideas: open an issue in the relevant repository
 
 <div align="center">

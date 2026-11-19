@@ -24,12 +24,12 @@
 
 | 项目 | 是什么 | 技术取向 | 状态 |
 | --- | --- | --- | --- |
-| **拾光 OneStar**<br>[yangyang2857-rgb/onestar](https://github.com/yangyang2857-rgb/onestar) | 「每日星」记录应用：一天记一笔心情，累积成一片手绘星图，支持桌面小组件、心情曲线、年度长图海报 | 纯 Java + Canvas 自绘，无 Gradle / 无 AndroidX / 无第三方 SDK；`aapt2 + javac + d8 + apksigner` 手工构建，JNI 层用 `zig cc` 编译 | 0.12.x 迭代中，targetSdk 37 |
-| **AppFunction Guard**<br>[yangyang2857-rgb/appfunction-guard](https://github.com/yangyang2857-rgb/appfunction-guard) | Android 16 的 `AppFunctions` 让 AI Agent 能直接调用 App 内的函数；这个库补上平台没给的逐函数授权、限流、参数校验与审计链路 | Kotlin 2.2，`minSdk 26`，MIT；单一拦截点插在平台与业务逻辑之间 | alpha |
-| **moltdisk · 蜕冗**<br>[yangyang2857-rgb/moltdisk](https://github.com/yangyang2857-rgb/moltdisk) | 磁盘体检工具：找出能由源码重建的构建产物（`node_modules`、`target`、`dist`、`venv`、`Pods`），算体积、排序，并给出「凭什么可删」的证据。它自己不删任何东西 | Rust 2021，MSRV 1.80，MIT；无删除代码路径，`-y` 直接报错 | v0.1.0 |
-| **Marvis · Persona Spec**<br>[yangyang2857-rgb/marvis-persona-spec](https://github.com/yangyang2857-rgb/marvis-persona-spec) | 一份可被程序检查的人格规范：30 格台词位、20 条禁句、一个能跑的 lint 脚本、10 条基准测试，附 Fault Bloom 视觉系统 | Python lint + Markdown 规范，CI 里做灰阶报告到门禁的两段式接入 | v3 |
+| **拾光 OneStar**<br>[wang-sunyang/onestar](https://github.com/wang-sunyang/onestar) | 「每日星」记录应用：一天记一笔心情，累积成一片手绘星图，支持桌面小组件、心情曲线、年度长图海报 | 纯 Java + Canvas 自绘，无 Gradle / 无 AndroidX / 无第三方 SDK；`aapt2 + javac + d8 + apksigner` 手工构建，JNI 层用 `zig cc` 编译 | 0.12.x 迭代中，targetSdk 37 |
+| **AppFunction Guard**<br>[wang-sunyang/appfunction-guard](https://github.com/wang-sunyang/appfunction-guard) | Android 16 的 `AppFunctions` 让 AI Agent 能直接调用 App 内的函数；这个库补上平台没给的逐函数授权、限流、参数校验与审计链路 | Kotlin 2.2，`minSdk 26`，MIT；单一拦截点插在平台与业务逻辑之间 | alpha |
+| **moltdisk · 蜕冗**<br>[wang-sunyang/moltdisk](https://github.com/wang-sunyang/moltdisk) | 磁盘体检工具：找出能由源码重建的构建产物（`node_modules`、`target`、`dist`、`venv`、`Pods`），算体积、排序，并给出「凭什么可删」的证据。它自己不删任何东西 | Rust 2021，MSRV 1.80，MIT；无删除代码路径，`-y` 直接报错 | v0.1.0 |
+| **Marvis · Persona Spec**<br>[wang-sunyang/marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec) | 一份可被程序检查的人格规范：30 格台词位、20 条禁句、一个能跑的 lint 脚本、10 条基准测试，附 Fault Bloom 视觉系统 | Python lint + Markdown 规范，CI 里做灰阶报告到门禁的两段式接入 | v3 |
 
-> 以上四个仓库目前仍在个人账号（[yangyang2857-rgb](https://github.com/yangyang2857-rgb)）下维护，待发布与协作链路稳定后迁入本组织。组织页面的 `.github` 仓库只承载这份简介与品牌资产。
+> 以上四个仓库目前仍在个人账号（[wang-sunyang](https://github.com/wang-sunyang)）下维护，待发布与协作链路稳定后迁入本组织。组织页面的 `.github` 仓库只承载这份简介与品牌资产。
 
 ### 视觉
 
@@ -63,17 +63,17 @@
 
 | 仓库 | 工作流 | 状态 |
 | --- | --- | --- |
-| onestar | `android.yml` | [![build](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/onestar/android.yml?branch=main&label=build)](https://github.com/yangyang2857-rgb/onestar/actions/workflows/android.yml) |
-| onestar | `regression.yml` | [![regression](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/onestar/regression.yml?branch=main&label=regression)](https://github.com/yangyang2857-rgb/onestar/actions/workflows/regression.yml) |
-| appfunction-guard | `build.yml` | [![build](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/appfunction-guard/build.yml?branch=main&label=build)](https://github.com/yangyang2857-rgb/appfunction-guard/actions/workflows/build.yml) |
-| moltdisk | `ci.yml` | [![ci](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/moltdisk/ci.yml?branch=main&label=ci)](https://github.com/yangyang2857-rgb/moltdisk/actions/workflows/ci.yml) |
-| marvis-persona-spec | `persona-lint.yml` | [![lint](https://img.shields.io/github/actions/workflow/status/yangyang2857-rgb/marvis-persona-spec/persona-lint.yml?branch=main&label=lint)](https://github.com/yangyang2857-rgb/marvis-persona-spec/actions/workflows/persona-lint.yml) |
+| onestar | `android.yml` | [![build](https://img.shields.io/github/actions/workflow/status/wang-sunyang/onestar/android.yml?branch=main&label=build)](https://github.com/wang-sunyang/onestar/actions/workflows/android.yml) |
+| onestar | `regression.yml` | [![regression](https://img.shields.io/github/actions/workflow/status/wang-sunyang/onestar/regression.yml?branch=main&label=regression)](https://github.com/wang-sunyang/onestar/actions/workflows/regression.yml) |
+| appfunction-guard | `build.yml` | [![build](https://img.shields.io/github/actions/workflow/status/wang-sunyang/appfunction-guard/build.yml?branch=main&label=build)](https://github.com/wang-sunyang/appfunction-guard/actions/workflows/build.yml) |
+| moltdisk | `ci.yml` | [![ci](https://img.shields.io/github/actions/workflow/status/wang-sunyang/moltdisk/ci.yml?branch=main&label=ci)](https://github.com/wang-sunyang/moltdisk/actions/workflows/ci.yml) |
+| marvis-persona-spec | `persona-lint.yml` | [![lint](https://img.shields.io/github/actions/workflow/status/wang-sunyang/marvis-persona-spec/persona-lint.yml?branch=main&label=lint)](https://github.com/wang-sunyang/marvis-persona-spec/actions/workflows/persona-lint.yml) |
 
 ### 链接
 
 - 官网：[nightglean.github.io](https://nightglean.github.io/)
-- 作者主页：[yangyang2857-rgb](https://github.com/yangyang2857-rgb)
-- 个人站点：[yangyang2857-rgb.github.io](https://yangyang2857-rgb.github.io)
+- 作者主页：[wang-sunyang](https://github.com/wang-sunyang)
+- 个人站点：[wang-sunyang.github.io](https://wang-sunyang.github.io)
 - 问题与建议：欢迎在对应仓库提 Issue
 
 <div align="center">
