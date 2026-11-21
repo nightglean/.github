@@ -29,7 +29,7 @@ No framework chasing, no dependency stacking — every build step stays somethin
 | **moltdisk**<br>[wang-sunyang/moltdisk](https://github.com/wang-sunyang/moltdisk) | A disk check-up tool: finds build artifacts that can be rebuilt from source (`node_modules`, `target`, `dist`, `venv`, `Pods`), measures them, ranks them, and shows the evidence for "why this is deletable". It deletes nothing itself | Rust 2021, MSRV 1.80, MIT; no deletion code path at all, `-y` is an error | v0.1.0 |
 | **Marvis · Persona Spec**<br>[wang-sunyang/marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec) | A persona spec that a program can check: 30 dialogue slots, 20 banned phrases, a runnable lint script, 10 benchmark cases, plus the Fault Bloom visual system | Python lint + Markdown spec; two-stage adoption in CI, from grey-scale report to a hard gate | v3 |
 
-> The four repositories above are still maintained under the personal account ([wang-sunyang](https://github.com/wang-sunyang)) and will move here once release and collaboration workflows settle. Single-file and experimental projects (e.g. `duyinbu` / The Ferrying Ledger) are out of that scope and stay on the maintainer's personal account. The `.github` repository of this organization only carries this profile and the brand assets.
+> All four repositories are still maintained under the personal account ([wang-sunyang](https://github.com/wang-sunyang)) and will move here once release and collaboration workflows settle. The `.github` repository of this organization only carries this profile and the brand assets.
 
 ### Visuals
 
