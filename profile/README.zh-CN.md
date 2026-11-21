@@ -29,7 +29,7 @@
 | **moltdisk · 蜕冗**<br>[wang-sunyang/moltdisk](https://github.com/wang-sunyang/moltdisk) | 磁盘体检工具：找出能由源码重建的构建产物（`node_modules`、`target`、`dist`、`venv`、`Pods`），算体积、排序，并给出「凭什么可删」的证据。它自己不删任何东西 | Rust 2021，MSRV 1.80，MIT；无删除代码路径，`-y` 直接报错 | v0.1.0 |
 | **Marvis · Persona Spec**<br>[wang-sunyang/marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec) | 一份可被程序检查的人格规范：30 格台词位、20 条禁句、一个能跑的 lint 脚本、10 条基准测试，附 Fault Bloom 视觉系统 | Python lint + Markdown 规范，CI 里做灰阶报告到门禁的两段式接入 | v3 |
 
-> 以上四个仓库目前仍在个人账号（[wang-sunyang](https://github.com/wang-sunyang)）下维护，待发布与协作链路稳定后迁入本组织。组织页面的 `.github` 仓库只承载这份简介与品牌资产。
+> 以上四个仓库目前仍在个人账号（[wang-sunyang](https://github.com/wang-sunyang)）下维护，待发布与协作链路稳定后迁入本组织；单机与实验性项目（如 `duyinbu`《渡阴簿》）不在此列，长期由维护者个人账号承载。组织页面的 `.github` 仓库只承载这份简介与品牌资产。
 
 ### 视觉
 
