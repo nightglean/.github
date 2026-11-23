@@ -29,7 +29,7 @@
 | **moltdisk · 蜕冗**<br>[wang-sunyang/moltdisk](https://github.com/wang-sunyang/moltdisk) | 磁盘体检工具：找出能由源码重建的构建产物（`node_modules`、`target`、`dist`、`venv`、`Pods`），算体积、排序，并给出「凭什么可删」的证据。它自己不删任何东西 | Rust 2021，MSRV 1.80，MIT；无删除代码路径，`-y` 直接报错 | v0.1.0 |
 | **Marvis · Persona Spec**<br>[wang-sunyang/marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec) | 一份可被程序检查的人格规范：30 格台词位、20 条禁句、一个能跑的 lint 脚本、10 条基准测试，附 Fault Bloom 视觉系统 | Python lint + Markdown 规范，CI 里做灰阶报告到门禁的两段式接入 | v3 |
 
-> 以上六个仓库——[onestar](https://github.com/wang-sunyang/onestar)、[appfunction-guard](https://github.com/wang-sunyang/appfunction-guard)、[moltdisk](https://github.com/wang-sunyang/moltdisk)、[marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec)、[duyinbu](https://github.com/wang-sunyang/duyinbu)、[summer-color-broadcast](https://github.com/wang-sunyang/summer-color-broadcast)——目前仍在个人账号（[wang-sunyang](https://github.com/wang-sunyang)）下维护，须同时满足两项条件后才迁入本组织：存在已打标签、公开可获取至少一个发布周期的发行版；至少有三次外部贡献完整走完 issue → PR → review → merge 流程。已有治理文件的项目在其文件中写明该判据——如《渡阴簿》与《夏色广播》见 `GOVERNANCE.md` §1.1。判据定义在各仓库，不在本页；本页只记录判据存在。六个仓库中后两个目前为私有仓，对应链接要等转公开后才能打开。组织页面的 `.github` 仓库只承载这份简介与品牌资产。
+> 以上六个仓库目前仍在个人账号（[wang-sunyang](https://github.com/wang-sunyang)）下维护——[onestar](https://github.com/wang-sunyang/onestar)、[appfunction-guard](https://github.com/wang-sunyang/appfunction-guard)、[moltdisk](https://github.com/wang-sunyang/moltdisk)、[marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec)，另有两个尚未公开的项目——须同时满足两项条件后才迁入本组织：存在已打标签、公开可获取至少一个发布周期的发行版；至少有三次外部贡献完整走完 issue → PR → review → merge 流程。设有治理文件的项目在该文件 §1.1 中写明这些条件。判据定义在各仓库，不在本页；本页只记录判据存在。尚未公开的两个项目此处不列名，这是刻意的。组织页面的 `.github` 仓库只承载这份简介与品牌资产。
 
 ### 视觉
 
