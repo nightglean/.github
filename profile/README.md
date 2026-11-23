@@ -8,6 +8,7 @@
 
 A very small independent studio building Android apps and engineering experiments.
 No framework chasing, no dependency stacking — every build step stays something we can read and explain ourselves.
+Founded in November 2026 by [Wang Sunyang](https://github.com/wang-sunyang), who remains its sole founder, sole owner and final decision-maker. Copyright in the studio's work and its marks stays with him personally; the organization holds no ownership, only permission to host.
 
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3DDC84?logo=android&logoColor=white)](https://github.com/nightglean)
 [![No Gradle](https://img.shields.io/badge/build-no%20Gradle-1f6feb)](https://github.com/nightglean)
@@ -30,6 +31,20 @@ No framework chasing, no dependency stacking — every build step stays somethin
 | **Marvis · Persona Spec**<br>[wang-sunyang/marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec) | A persona spec that a program can check: 30 dialogue slots, 20 banned phrases, a runnable lint script, 10 benchmark cases, plus the Fault Bloom visual system | Python lint + Markdown spec; two-stage adoption in CI, from grey-scale report to a hard gate | v3 |
 
 > All six repositories are still maintained under the personal account ([wang-sunyang](https://github.com/wang-sunyang)) — [onestar](https://github.com/wang-sunyang/onestar), [appfunction-guard](https://github.com/wang-sunyang/appfunction-guard), [moltdisk](https://github.com/wang-sunyang/moltdisk), [marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec), and two further projects that are not public yet — and will move here only after two conditions are met: a tagged release that has been publicly available for at least one release cycle, and at least three external contributions that completed the full issue → PR → review → merge loop. Where a project carries its own governance file, that file states these conditions in §1.1. The criteria live in each repository, not on this page; this page only records that they exist. The two projects that are not public yet are left unnamed here on purpose. The `.github` repository of this organization only carries this profile and the brand assets.
+
+### Founder and ownership
+
+| Question | Answer |
+| --- | --- |
+| Who founded this organization | [Wang Sunyang](https://github.com/wang-sunyang), November 2026 |
+| Who owns it | The same person — the organization has exactly one owner, no pending owner invitations |
+| Who owns the code and the marks | The person, never the organization; see [AUTHORS.md](../AUTHORS.md) and [TRADEMARK.md](../TRADEMARK.md) |
+| Who decides | The founder, as stated in each project's `GOVERNANCE.md` — reserved powers cannot be amended away by a later vote |
+
+An owner account in an organization can add or remove other owners; that is a platform
+mechanism, not a governance one. This organization is kept at a single owner on purpose,
+and any future co-owner is introduced by a written amendment to `GOVERNANCE.md` first,
+never the other way round.
 
 ### Visuals
 

@@ -1,0 +1,13 @@
+# CODEOWNERS — profile and brand assets
+
+*               @wang-sunyang
+
+# The profile is the public face of the studio; wording changes go through review
+/profile/       @wang-sunyang
+
+# Brand lockups, posters, icons
+/assets/        @wang-sunyang
+
+# This file and the ownership record
+/AUTHORS.md     @wang-sunyang
+/TRADEMARK.md   @wang-sunyang
