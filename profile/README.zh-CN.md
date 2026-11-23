@@ -9,6 +9,8 @@
 一个很小的独立工作室，做 Android 应用与工程实验。
 不追框架，不堆依赖，尽量让每一条构建链路都能被自己读懂。
 
+2026 年 11 月由[王孙阳](https://github.com/wang-sunyang)创建，至今仍是其唯一的创始人、唯一的 Owner 与最终决策人。工作室作品的著作权与商标权始终归他个人所有，组织不持有任何所有权，仅有被许可的托管与使用。
+
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3DDC84?logo=android&logoColor=white)](https://github.com/nightglean)
 [![No Gradle](https://img.shields.io/badge/build-no%20Gradle-1f6feb)](https://github.com/nightglean)
 [![License](https://img.shields.io/badge/license-MIT-2ea44f)](https://github.com/nightglean)
@@ -30,6 +32,18 @@
 | **Marvis · Persona Spec**<br>[wang-sunyang/marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec) | 一份可被程序检查的人格规范：30 格台词位、20 条禁句、一个能跑的 lint 脚本、10 条基准测试，附 Fault Bloom 视觉系统 | Python lint + Markdown 规范，CI 里做灰阶报告到门禁的两段式接入 | v3 |
 
 > 以上六个仓库目前仍在个人账号（[wang-sunyang](https://github.com/wang-sunyang)）下维护——[onestar](https://github.com/wang-sunyang/onestar)、[appfunction-guard](https://github.com/wang-sunyang/appfunction-guard)、[moltdisk](https://github.com/wang-sunyang/moltdisk)、[marvis-persona-spec](https://github.com/wang-sunyang/marvis-persona-spec)，另有两个尚未公开的项目——须同时满足两项条件后才迁入本组织：存在已打标签、公开可获取至少一个发布周期的发行版；至少有三次外部贡献完整走完 issue → PR → review → merge 流程。设有治理文件的项目在该文件 §1.1 中写明这些条件。判据定义在各仓库，不在本页；本页只记录判据存在。尚未公开的两个项目此处不列名，这是刻意的。组织页面的 `.github` 仓库只承载这份简介与品牌资产。
+
+### 创始人与归属
+
+| 问题 | 答案 |
+| --- | --- |
+| 谁创建了这个组织 | [王孙阳](https://github.com/wang-sunyang)，2026 年 11 月 |
+| 谁拥有它 | 同一个人——组织只有一个 Owner，没有待接受的 Owner 邀请 |
+| 代码与商标归谁 | 归个人，永远不归组织；见 [AUTHORS.md](../AUTHORS.md) 与 [TRADEMARK.md](../TRADEMARK.md) |
+| 谁说了算 | 创始人，写在各项目的 `GOVERNANCE.md` 里——保留权力不能被后来的表决改掉 |
+
+组织 Owner 账号可以在组织里增减其他 Owner，那是平台机制，不是治理机制。本组织刻意保持在单一 Owner：
+将来若引入联合 owner，必须先以书面修订写进 `GOVERNANCE.md`，顺序不能倒过来。
 
 ### 视觉
 
